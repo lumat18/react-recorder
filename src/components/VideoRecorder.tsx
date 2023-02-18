@@ -96,12 +96,7 @@ export function VideoRecorder() {
       <div className="video-player">
         {!recordedVideo ? (
           <video ref={liveVideoFeed} autoPlay className="live-player">
-            <track
-              src="captions_en.vtt"
-              kind="captions"
-              srcLang="en"
-              label="english_captions"
-            />
+            <track src="" kind="captions" srcLang="en" label="english_captions" />
           </video>
         ) : null}
         {recordedVideo ? (
