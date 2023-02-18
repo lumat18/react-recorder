@@ -1,0 +1,36 @@
+.button-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.media-controls {
+  margin-bottom: 20px;
+}
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.media-player,
+.recorded-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.live-player {
+  height: 200px;
+  width: 400px;
+  border: 1px solid #646cff;
+  margin-bottom: 30px;
+}
+.recorded-player video {
+  height: 400px;
+  width: 800px;
+}
+
+.media-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
