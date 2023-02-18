@@ -1,5 +1,7 @@
 import './MediaRecorder.css';
+
 import React from 'react';
+
 import { MediaType, RecordingStatus } from '../types';
 import { useRecording } from './useRecording';
 

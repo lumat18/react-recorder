@@ -1,8 +1,9 @@
 import './MediaRecorder.css';
 
 import React from 'react';
-import { useRecording } from './useRecording';
+
 import { MediaType, RecordingStatus } from '../types';
+import { useRecording } from './useRecording';
 
 export function VideoRecorder() {
   const {

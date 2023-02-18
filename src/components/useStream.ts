@@ -1,4 +1,5 @@
 import { MutableRefObject } from 'react';
+
 import { MediaType } from '../types';
 
 export function useStream({

@@ -1,4 +1,5 @@
 import { MutableRefObject, useRef, useState } from 'react';
+
 import { MediaType, RecordingStatus } from '../types';
 import { useStream } from './useStream';
 
